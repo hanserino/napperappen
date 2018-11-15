@@ -1,14 +1,71 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Napperappen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <link type="text/plain" rel="author" href="humans.txt" />
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style/main.css" />
+ 
 </head>
-<body>
-    <h1>Velkommen til Napperappen!</h1>
+<body data-touch="" data-loaded="">
+
+    <header>
+        <div class="brand">
+            <h1>Napperappen</h1>
+            <span>-</span>
+            <p>Naprapater. Oslo.</p>
+            <p>Ikke kom til oss. Vi kommer til deg.</p>
+        </div>
+
+        <div class="phone">
+            <span>+47 928 41 558</span>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Om oss</a></li>
+                <li><a href="#">Slik funker det</a></li>
+                <li><a href="#">Case studies</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Prioriteringsliste:</h2>
+
+    <ul>
+        <li>Synlig på nett</li>
+        <li>Man skal skjønne greia så fort som mulig</li>
+        <li>Kontaktinfo kjapt og enkelt</li>
+        <li>Enkel presentasjon av terapeutene</li>
+        <li>Stor tekst, fine bilder</li>
+        <li>Skarpe farger</li>
+        <li>Super simple på mobil</li>
+    </ul>
+
+    <div class="colors">
+        <div class="color1"></div>
+        <div class="color2"></div>
+        <div class="color3"></div>
+    </div>
+
+
+    <div id="medium-posts" data-fetch-success="false">
+
+        <h2 id="medium-posts__title">
+            Henter Medium-posts
+        </h2>
+        
+        <!-- JS HOOK -->
+        <ul id="medium-post-list"></ul>
+
+    </div>
+
+    <script src="assets/scripts/medium.js"></script>
+    <script src="assets/scripts/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible for this site and branding
+
+# TEAM
+
+    Design: Felipe Hefler
+	Contact: hefler [at] gmail.org
+	Instagram: @hefler
+
+    Dev: Hans Kristian Smedsrød
+	Contact: eplehans [at] gmail.org
+	Instagram: @hanserino

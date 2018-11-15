@@ -1,0 +1,58 @@
+
+
+body{
+    background: #fff;
+    color: #13022C;
+    font-family: 'Space Mono', monospace;
+}
+
+nav{
+    padding: 2rem 0;
+    font-size: 2rem;
+    border: 1px solid #f0f0f0;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav li{
+    width: 100%;
+}
+
+nav a{
+    display: block;
+    padding: 1rem 0;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+
+.colors{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    
+}
+.colors div{
+    height: 100%;
+    width: 100%;
+}
+
+.color1{
+    background: #f0f0f0;
+}
+.color2{
+    background: rgb(0,255,255);
+}
+.color3{
+    background: rgb(255,0,255);
+}
+
+#medium-posts{
+    display: none;
+}
