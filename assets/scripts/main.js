@@ -18,11 +18,6 @@ let isTouchDevice = function () {
 function init() {   
     document.body.setAttribute("data-touch", isTouchDevice());
     
-    // Medium posts
-    if(document.getElementById('medium-posts')){
-        mediumPosts('medium-posts');
-    }
-    
     console.log('init');
 }
 

@@ -3,15 +3,27 @@
 body{
     background: #fff;
     color: #13022C;
-    font-family: 'Space Mono', monospace;
+    font-family: helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.25;
 }
 
-nav{
+em {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, em {
+    font-weight: bold;
+}
+
+.header__nav{
     padding: 2rem 0;
     font-size: 2rem;
     border: 1px solid #f0f0f0;
+    width: 100%;
 }
-nav ul {
+
+.header__nav ul {
     display: flex;
     flex-direction: column;
     font-size: 1.2rem;
@@ -19,40 +31,41 @@ nav ul {
     padding: 0;
     text-align: center;
 }
-nav li{
+.header__nav li{
     width: 100%;
 }
 
-nav a{
+.header__nav a{
     display: block;
     padding: 1rem 0;
 }
-
-h1, h2, h3, h4, em {
-    font-weight: 700;
-}
-
-.colors{
-    display: flex;
-    height: 300px;
-    flex-direction: row;
+@media (min-width: 650px){
+    .header__nav{
+        border: none;
+    }
     
+    .header__nav ul {
+        flex-direction: row;
+    }
 }
-.colors div{
-    height: 100%;
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 650px){
+   .header{
+        flex-direction: row;
+   }
+}
+
+.header__logo{
+    width: 250px;
+}
+
+.logo-graphic{
     width: 100%;
 }
 
-.color1{
-    background: #f0f0f0;
-}
-.color2{
-    background: rgb(0,255,255);
-}
-.color3{
-    background: rgb(255,0,255);
-}
-
-#medium-posts{
-    display: none;
-}
+.st0{fill:#0F0021;} 
